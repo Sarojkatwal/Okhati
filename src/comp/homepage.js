@@ -30,7 +30,7 @@ export class Homepage extends Component {
           onClick={this.go}
         >
           {this.state.loading && <CircularProgress size={14} />}
-          {!this.state.loading && "Click Me"}
+          {!this.state.loading && "Sign Out"}
         </Button>
       </>
     );
